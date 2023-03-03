@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <!--<img src="./img/marca.svg" alt="Paulo#DEV" width="267" height="61">-->
+        <h1 class="header-nome"></h1>
+        <nav>
+          <ul class="header-menu">
+            <li><a href="./index"></a></li>
+          </ul>
+        </nav>
+    </header>
+    <section id="sec1">
+        <div>
+            <p>Ano de nascimento
+                <input type="number" name="mas" id="txtano" min="0">
+            </p>
+            <p>sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="mas">Feminino</label>
+            </p>
+            <input id="botao" type="button" value="verificar" onclick="verificar()">
+        </div>
+        </section>
+        <section id="sec2">
+
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado</p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    <footer>
+        <p>Desenvolvido por PauloDEV</p>
+    </footer>
+    </body>
+    </html>
